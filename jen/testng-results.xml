@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testingExecution" duration-ms="31348" started-at="2021-05-12T02:20:02 CLT" finished-at="2021-05-12T02:20:34 CLT">
+    <groups>
+      <group name="regression">
+        <method signature="Login_Tests.test_CloseSession()[pri:3, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="test_CloseSession" class="Tests.Suite_Login.Login_Tests"/>
+        <method signature="Login_Tests.test_SuccessfulLogin()[pri:1, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="test_SuccessfulLogin" class="Tests.Suite_Login.Login_Tests"/>
+        <method signature="Login_Tests.test_WrongLogin()[pri:2, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="test_WrongLogin" class="Tests.Suite_Login.Login_Tests"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="debug" duration-ms="31348" started-at="2021-05-12T02:20:02 CLT" finished-at="2021-05-12T02:20:34 CLT">
+      <class name="Tests.Suite_Login.Login_Tests">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="setUpReport" is-config="true" duration-ms="86" started-at="2021-05-12T02:20:02 CLT" finished-at="2021-05-12T02:20:02 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="setUp" is-config="true" duration-ms="1924" started-at="2021-05-12T02:20:02 CLT" finished-at="2021-05-12T02:20:04 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_SuccessfulLogin()[pri:1, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="test_SuccessfulLogin" duration-ms="8847" started-at="2021-05-12T02:20:04 CLT" description="Valido Login Correcto en PWA" finished-at="2021-05-12T02:20:13 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SuccessfulLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="getResult" is-config="true" duration-ms="82" started-at="2021-05-12T02:20:13 CLT" finished-at="2021-05-12T02:20:13 CLT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_SuccessfulLogin status=SUCCESS method=Login_Tests.test_SuccessfulLogin()[pri:1, instance:Tests.Suite_Login.Login_Tests@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="setUp" is-config="true" duration-ms="1295" started-at="2021-05-12T02:20:13 CLT" finished-at="2021-05-12T02:20:15 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_WrongLogin()[pri:2, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="test_WrongLogin" duration-ms="7790" started-at="2021-05-12T02:20:15 CLT" description="Valido Login Incorrecto en PWA" finished-at="2021-05-12T02:20:22 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_WrongLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="getResult" is-config="true" duration-ms="73" started-at="2021-05-12T02:20:22 CLT" finished-at="2021-05-12T02:20:22 CLT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_WrongLogin status=SUCCESS method=Login_Tests.test_WrongLogin()[pri:2, instance:Tests.Suite_Login.Login_Tests@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="setUp" is-config="true" duration-ms="1297" started-at="2021-05-12T02:20:22 CLT" finished-at="2021-05-12T02:20:24 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_CloseSession()[pri:3, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="test_CloseSession" duration-ms="9940" started-at="2021-05-12T02:20:24 CLT" description="Valido Cerrar Sesion en PWA" finished-at="2021-05-12T02:20:34 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CloseSession -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="getResult" is-config="true" duration-ms="73" started-at="2021-05-12T02:20:34 CLT" finished-at="2021-05-12T02:20:34 CLT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_CloseSession status=SUCCESS method=Login_Tests.test_CloseSession()[pri:3, instance:Tests.Suite_Login.Login_Tests@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.Suite_Login.Login_Tests@3b0143d3]" name="tearDown" is-config="true" duration-ms="218" started-at="2021-05-12T02:20:34 CLT" finished-at="2021-05-12T02:20:34 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.Suite_Login.Login_Tests -->
+    </test> <!-- debug -->
+  </suite> <!-- testingExecution -->
+</testng-results>

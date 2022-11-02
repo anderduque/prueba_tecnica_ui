@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Prueba Tecnica Capitole"  >
+
+    <!-- suite name="Suite Name" -->
+    <test name="Suite_PruebaTecnica" allow-return-values="true">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="environmentURL" value="https://www.google.com/"/>
+        <groups>
+            <run>
+                <exclude name=""/>
+            </run>
+        </groups>
+        <packages>
+            <package name="Tests.Suite_Automation"/>
+        </packages>
+    </test>
+</suite>
